@@ -1,4 +1,4 @@
-# Swag Labs Playwright Framework
+# 🚀 Swag Labs Playwright Framework
 
 UI Test Automation Framework built with Playwright and TypeScript using the Page Object Model (POM) design pattern.
 
