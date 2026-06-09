@@ -74,4 +74,5 @@ npm run report
 ```
 
 ## Playwright Report
+
 <img width="698" height="614" alt="Screenshot " src="https://github.com/user-attachments/assets/9b22d539-15f9-462a-b301-f5e78f6c0cd5" />
