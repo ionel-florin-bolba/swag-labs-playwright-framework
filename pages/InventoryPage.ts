@@ -7,6 +7,7 @@ export class InventoryPage {
   readonly sortDropdown: Locator;
   readonly cartBadge: Locator;
   readonly cartLink: Locator;
+  readonly productNames: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -17,11 +18,15 @@ export class InventoryPage {
     this.cartBadge = page.locator('[data-test="shopping-cart-badge"]');
 
     this.cartLink = page.locator('[data-test="shopping-cart-link"]');
-    
+
+    this.productNames = page.locator(".inventory_item_name");
   }
 
   async getProductsCount() {
     return await this.products.count();
+  }
+  async getFirstProductName() {
+    return await this.productNames.first().textContent();
   }
 
   async sortByAZ() {

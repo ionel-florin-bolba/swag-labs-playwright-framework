@@ -1,16 +1,16 @@
 export const users = {
   standard: {
-    username: 'standard_user',
-    password: 'secret_sauce',
+    username: "standard_user",
+    password: "secret_sauce",
   },
 
   locked: {
-    username: 'locked_out_user',
-    password: 'secret_sauce',
+    username: "locked_out_user",
+    password: "secret_sauce",
   },
 
   invalid: {
-    username: 'standard_user',
-    password: 'wrong_password',
+    username: "standard_user",
+    password: "wrong_password",
   },
 };
